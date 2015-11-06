@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86BFD2EE1A66DD63004DB09E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BFD2ED1A66DD63004DB09E /* main.swift */; };
+		86BFD2F51A66DD70004DB09E /* NeuralNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BFD2F41A66DD70004DB09E /* NeuralNet.swift */; };
+		86BFD2F71A66DF8A004DB09E /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BFD2F61A66DF8A004DB09E /* Training.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86BFD2E81A66DD63004DB09E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		86BFD2EA1A66DD63004DB09E /* SwiftNeuralNetwork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftNeuralNetwork; sourceTree = BUILT_PRODUCTS_DIR; };
+		86BFD2ED1A66DD63004DB09E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		86BFD2F41A66DD70004DB09E /* NeuralNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeuralNet.swift; sourceTree = "<group>"; };
+		86BFD2F61A66DF8A004DB09E /* Training.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Training.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86BFD2E71A66DD63004DB09E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86BFD2E11A66DD63004DB09E = {
+			isa = PBXGroup;
+			children = (
+				86BFD2EC1A66DD63004DB09E /* SwiftNeuralNetwork */,
+				86BFD2EB1A66DD63004DB09E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86BFD2EB1A66DD63004DB09E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86BFD2EA1A66DD63004DB09E /* SwiftNeuralNetwork */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86BFD2EC1A66DD63004DB09E /* SwiftNeuralNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				86BFD2ED1A66DD63004DB09E /* main.swift */,
+				86BFD2F41A66DD70004DB09E /* NeuralNet.swift */,
+				86BFD2F61A66DF8A004DB09E /* Training.swift */,
+			);
+			path = SwiftNeuralNetwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86BFD2E91A66DD63004DB09E /* SwiftNeuralNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86BFD2F11A66DD63004DB09E /* Build configuration list for PBXNativeTarget "SwiftNeuralNetwork" */;
+			buildPhases = (
+				86BFD2E61A66DD63004DB09E /* Sources */,
+				86BFD2E71A66DD63004DB09E /* Frameworks */,
+				86BFD2E81A66DD63004DB09E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftNeuralNetwork;
+			productName = SwiftNeuralNetwork;
+			productReference = 86BFD2EA1A66DD63004DB09E /* SwiftNeuralNetwork */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86BFD2E21A66DD63004DB09E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tortuca Labs";
+				TargetAttributes = {
+					86BFD2E91A66DD63004DB09E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 86BFD2E51A66DD63004DB09E /* Build configuration list for PBXProject "SwiftNeuralNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86BFD2E11A66DD63004DB09E;
+			productRefGroup = 86BFD2EB1A66DD63004DB09E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86BFD2E91A66DD63004DB09E /* SwiftNeuralNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86BFD2E61A66DD63004DB09E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86BFD2F51A66DD70004DB09E /* NeuralNet.swift in Sources */,
+				86BFD2F71A66DF8A004DB09E /* Training.swift in Sources */,
+				86BFD2EE1A66DD63004DB09E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		86BFD2EF1A66DD63004DB09E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86BFD2F01A66DD63004DB09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		86BFD2F21A66DD63004DB09E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86BFD2F31A66DD63004DB09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86BFD2E51A66DD63004DB09E /* Build configuration list for PBXProject "SwiftNeuralNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86BFD2EF1A66DD63004DB09E /* Debug */,
+				86BFD2F01A66DD63004DB09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86BFD2F11A66DD63004DB09E /* Build configuration list for PBXNativeTarget "SwiftNeuralNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86BFD2F21A66DD63004DB09E /* Debug */,
+				86BFD2F31A66DD63004DB09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86BFD2E21A66DD63004DB09E /* Project object */;
+}
